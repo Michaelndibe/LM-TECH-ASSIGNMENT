@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+.Michael{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*or 1fr, 1fr, 1fr, 1fr*/
+    grid-template-rows: 1fr, 1fr;
+    gap: 15px;
+    text-align: center;
+}
+
+
+.Michael div{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 100px;
+
+}
+div:first-child{
+    background: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+ /* you can select any child items with :nth child(denotation) it can be a number or odd or even*/
+ div:nth-child(2) {
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+
+ }

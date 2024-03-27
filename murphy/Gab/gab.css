@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+   background:none;
+   margin:0;
+   padding: 0;
+   background-image: url("images/header.pic.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+    
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 100
+}
+
+.logo {
+    font-size: 25px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+.home .home-content {
+    text-align: center;
+
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.home-content {
+    max-width:600px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-content p {
+    font-size: 25px;
+    margin:20px;
+    
+}
+
+.home-content .btn {
+    display: flex;
+    justify-content: space-between;
+    width:350px;
+    height: 50px;
+    align-items:center;
+}
+
+.btn a {
+    position: relative;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height: 100%;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 600;
+ 
+}
+
+.home-sci {
+    position: absolute;
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    font-size: 25px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#menu {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    font-size: 3.6rem;
+    color: black;
+    font-weight: 600;
+    float: none;
+    display: inline-block;
+}
